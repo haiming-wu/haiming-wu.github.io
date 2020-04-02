@@ -168,8 +168,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2020-04-02 13:09:47" itemprop="dateCreated datePublished" datetime="2020-04-02T13:09:47+08:00">2020-04-02</time>
+              <time title="Created: 2020-04-02 13:09:47 / Modified: 13:49:40" itemprop="dateCreated datePublished" datetime="2020-04-02T13:09:47+08:00">2020-04-02</time>
             </span>
 
           
@@ -183,7 +184,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <ul>
+<li><p>相关知识</p>
+<p>os.listdir(dir): 获取指定目录dir下的所有子目录和文件名</p>
+<p>os.rename(oldname, newname): 对文件或目录改名</p>
+</li>
+<li><p>代码（以在B站下载的文件目录为例）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path &#x3D; input(&quot;The path of files:(don&#39;t forgot &#39;&#x2F;&#39; in the end)&quot;)</span><br><span class="line"></span><br><span class="line">files_name_list &#x3D; os.listdir(path)</span><br><span class="line"></span><br><span class="line">n &#x3D; 0</span><br><span class="line">for i in files_name_list:</span><br><span class="line">    file_name &#x3D; files_name_list[n]</span><br><span class="line">    old_name &#x3D; path+file_name</span><br><span class="line">    if &quot;.mp4&quot; in file_name:</span><br><span class="line">        file_name &#x3D; file_name.split(&#39;.&#39;, 1)[1]</span><br><span class="line">    if &quot;(&quot; in file_name:</span><br><span class="line">        file_name &#x3D; file_name.split(&#39;(&#39;)[0]</span><br><span class="line">        new_name &#x3D; path + file_name + &quot;.mp4&quot;</span><br><span class="line">        # rename</span><br><span class="line">        os.rename(old_name, new_name)</span><br><span class="line">        print(old_name, &quot;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&quot;, new_name)</span><br><span class="line"></span><br><span class="line">    n +&#x3D; 1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
       
     </div>
 
