@@ -20,28 +20,32 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Haiming&#39; Home">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Python代码规范与命名规则主要涉及5类命名规则：模块、类名、函数、变量和常量，为了加深记忆，进一步和Java进行了对比。  1.模块 模块尽量使用小写命名，首字母保持小写，尽量不要用下划线(除非多个单词，且数量不多的情况)  123456# 正确的模块名import decoderimport html_parser# 不推荐的模块名import Decoder  2.类名 类名使用驼峰(Ca">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python代码规范与命名规则">
+<meta property="og:url" content="http://yoursite.com/2020/06/17/Python%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/index.html">
 <meta property="og:site_name" content="Haiming&#39; Home">
+<meta property="og:description" content="Python代码规范与命名规则主要涉及5类命名规则：模块、类名、函数、变量和常量，为了加深记忆，进一步和Java进行了对比。  1.模块 模块尽量使用小写命名，首字母保持小写，尽量不要用下划线(除非多个单词，且数量不多的情况)  123456# 正确的模块名import decoderimport html_parser# 不推荐的模块名import Decoder  2.类名 类名使用驼峰(Ca">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-17T01:15:41.915Z">
+<meta property="article:modified_time" content="2020-06-17T01:15:41.915Z">
 <meta property="article:author" content="Haiming Wu">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2020/06/17/Python%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Haiming' Home</title>
+  <title>Python代码规范与命名规则 | Haiming' Home</title>
   
 
 
@@ -140,9 +144,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -158,10 +163,9 @@
       <meta itemprop="name" content="Haiming' Home">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/06/17/Python%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E4%B8%8E%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/" class="post-title-link" itemprop="url">Python代码规范与命名规则</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Python代码规范与命名规则
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -184,7 +188,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="Python代码规范与命名规则"><a href="#Python代码规范与命名规则" class="headerlink" title="Python代码规范与命名规则"></a>Python代码规范与命名规则</h3><p>主要涉及5类命名规则：模块、类名、函数、变量和常量，为了加深记忆，进一步和Java进行了对比。</p>
+        <h3 id="Python代码规范与命名规则"><a href="#Python代码规范与命名规则" class="headerlink" title="Python代码规范与命名规则"></a>Python代码规范与命名规则</h3><p>主要涉及5类命名规则：模块、类名、函数、变量和常量，为了加深记忆，进一步和Java进行了对比。</p>
 <hr>
 <h4 id="1-模块"><a href="#1-模块" class="headerlink" title="1.模块"></a>1.模块</h4><ul>
 <li>模块尽量使用小写命名，首字母保持小写，尽量不要用下划线(除非多个单词，且数量不多的情况)</li>
@@ -256,161 +260,30 @@
 </tr>
 </tbody></table>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/02/python%E4%BF%AE%E6%94%B9%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%90%8D/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Haiming Wu">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Haiming' Home">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/02/python%E4%BF%AE%E6%94%B9%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%90%8D/" class="post-title-link" itemprop="url">python修改批量文件名</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-04-02 13:09:47 / Modified: 14:06:23" itemprop="dateCreated datePublished" datetime="2020-04-02T13:09:47+08:00">2020-04-02</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <ul>
-<li><p><strong>相关知识</strong></p>
-<p>os.listdir(dir): 获取指定目录dir下的所有子目录和文件名</p>
-<p>os.rename(oldname, newname): 对文件或目录改名</p>
-</li>
-<li><p><strong>代码（以在B站下载的文件目录为例）</strong>：</p>
-</li>
-</ul>
-<hr>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path &#x3D; input(&quot;The path of files:(don&#39;t forgot &#39;&#x2F;&#39; in the end)&quot;)</span><br><span class="line"></span><br><span class="line">files_name_list &#x3D; os.listdir(path)</span><br><span class="line"></span><br><span class="line">n &#x3D; 0</span><br><span class="line">for i in files_name_list:</span><br><span class="line">    file_name &#x3D; files_name_list[n]</span><br><span class="line">    old_name &#x3D; path+file_name</span><br><span class="line">    if &quot;.mp4&quot; in file_name:</span><br><span class="line">        file_name &#x3D; file_name.split(&#39;.&#39;, 1)[1]</span><br><span class="line">    if &quot;(&quot; in file_name:</span><br><span class="line">        file_name &#x3D; file_name.split(&#39;(&#39;)[0]</span><br><span class="line">        new_name &#x3D; path + file_name + &quot;.mp4&quot;</span><br><span class="line">        # rename</span><br><span class="line">        os.rename(old_name, new_name)</span><br><span class="line">        print(old_name, &quot;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&quot;, new_name)</span><br><span class="line"></span><br><span class="line">    n +&#x3D; 1</span><br></pre></td></tr></table></figure>
-
-<hr>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/02/python%E4%BF%AE%E6%94%B9%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%90%8D/" rel="prev" title="python修改批量文件名">
+      <i class="fa fa-chevron-left"></i> python修改批量文件名
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/02/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Haiming Wu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Haiming' Home">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/02/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-04-02 11:08:13" itemprop="dateCreated datePublished" datetime="2020-04-02T11:08:13+08:00">2020-04-02</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -463,6 +336,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Python代码规范与命名规则"><span class="nav-number">1.</span> <span class="nav-text">Python代码规范与命名规则</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-模块"><span class="nav-number">1.1.</span> <span class="nav-text">1.模块</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-类名"><span class="nav-number">1.2.</span> <span class="nav-text">2.类名</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-函数"><span class="nav-number">1.3.</span> <span class="nav-text">3.函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-变量"><span class="nav-number">1.4.</span> <span class="nav-text">4.变量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-常量"><span class="nav-number">1.5.</span> <span class="nav-text">5.常量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-Python与Java对比"><span class="nav-number">1.6.</span> <span class="nav-text">6.Python与Java对比</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
