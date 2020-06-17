@@ -164,7 +164,7 @@ NexT.motion.middleWares = {
     // Only for Pisces | Gemini.
     if (sidebarAffixTransition && (CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini')) {
       Velocity(sidebarAffix, 'transition.' + sidebarAffixTransition, {
-        display : null,
+        display : post,
         duration: 200,
         complete: function() {
           // After motion complete need to remove transform from sidebar to let affix work on Pisces | Gemini.
